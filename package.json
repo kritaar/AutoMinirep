@@ -1,0 +1,17 @@
+{
+  "name": "autominirep",
+  "version": "1.0.0",
+  "description": "AutoMinirep Django + Tailwind",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/app.css -o ./static/css/app.css --minify",
+    "watch:css": "tailwindcss -i ./css/app.css -o ./static/css/app.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
